@@ -1,0 +1,28 @@
+{
+    "name": "kekaadrenalin/yii2-imap",
+    "minimum-stability": "dev",
+    "prefer-stable": "true",
+    "description": "yii2 extension to read and process mails from IMAP and PHP",
+    "keywords": ["yii2", "extension", "widget", "imap", "cron", "mail", "inbox"],
+    "homepage": "https://github.com/kekaadrenalin/yii2-imap.git",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "kekaadrenalin",
+            "homepage": "https://github.com/kekaadrenalin"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-imap": "*",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kekaadrenalin\\imap\\": "src/"
+        }
+    }
+}
